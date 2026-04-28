@@ -403,7 +403,7 @@ document.getElementById('tgBtn').addEventListener('click', function(e) {
       payload = b64url(JSON.stringify({ fbp })); // fbc дороже по символам, fbp — самое ценное
     }
     if (payload.length <= 60) {
-      tgLink = 'https://t.me/belkod_by_bot?startapp=fb_' + payload;
+      tgLink = 'https://t.me/belkod_by_bot?start=fb_' + payload;
     }
   }
 
